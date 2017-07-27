@@ -7,12 +7,74 @@
     tools:context="com.example.ruan.keydclicker.MainActivity">
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background=""
+        android:gravity="center"
+        android:text="@string/header"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFF00"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="63dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_Menu_Iniciar"
+        android:layout_centerHorizontal="true"
+        android:background=""
+        android:clickable="true"
+        android:onClick="onClickInfo"
+        android:text="@string/Button_Menu_Info"
+        android:textColor="#FFFF00"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="184dp"
+        tools:layout_editor_absoluteX="160dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:background=""
+        android:clickable="true"
+        android:onClick="Sair"
+        android:text="@string/Button_Menu_Sair"
+        android:textColor="#FFFF00"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="278dp"
+        tools:layout_editor_absoluteX="160dp" />
+
+    <Button
+        android:id="@+id/button_Menu_Iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:background=""
+        android:clickable="true"
+        android:onClick="Keyd_Main"
+        android:text="@string/Button_Menu"
+        android:textColor="#FFFF00"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="50dp"
+        tools:layout_editor_absoluteX="147dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Button_Menu"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="114dp" />
 
 </android.support.constraint.ConstraintLayout>
