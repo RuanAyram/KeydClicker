@@ -6,75 +6,87 @@
     android:layout_height="match_parent"
     tools:context="com.example.ruan.keydclicker.MainActivity">
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentRight="true"
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         android:layout_alignParentTop="true"
-        android:background=""
-        android:gravity="center"
-        android:text="@string/header"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#FFFF00"
-        tools:layout_editor_absoluteY="0dp"
-        tools:layout_editor_absoluteX="63dp" />
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button_Menu_Iniciar"
         android:layout_centerHorizontal="true"
-        android:background=""
         android:clickable="true"
-        android:onClick="onClickInfo"
-        android:text="@string/Button_Menu_Info"
-        android:textColor="#FFFF00"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteY="184dp"
-        tools:layout_editor_absoluteX="160dp" />
+        android:onClick="processAll"
+        android:src="@drawable/ic_imgclick"
+        tools:layout_editor_absoluteY="77dp"
+        tools:layout_editor_absoluteX="117dp" />
 
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/button2"
-        android:layout_below="@+id/button2"
-        android:background=""
-        android:clickable="true"
-        android:onClick="Sair"
-        android:text="@string/Button_Menu_Sair"
-        android:textColor="#FFFF00"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteY="278dp"
-        tools:layout_editor_absoluteX="160dp" />
-
-    <Button
-        android:id="@+id/button_Menu_Iniciar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/textView1"
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background=""
+        android:background="@drawable/ic_imgclick"
         android:clickable="true"
-        android:onClick="Keyd_Main"
-        android:text="@string/Button_Menu"
-        android:textColor="#FFFF00"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteY="50dp"
-        tools:layout_editor_absoluteX="147dp" />
+        android:onClick="Keyd_Loja"
+        android:src="@drawable/ic_loja"
+        tools:layout_editor_absoluteY="463dp"
+        tools:layout_editor_absoluteX="295dp" />
 
-    <Button
-        android:id="@+id/button"
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_imgclick"
+        android:clickable="true"
+        android:onClick="Keyd_Upgrades"
+        android:src="@drawable/ic_upgrades"
+        tools:layout_editor_absoluteY="463dp"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_imgclick"
+        android:clickable="true"
+        android:onClick="Keyd_Menu"
+        android:src="@drawable/ic_menu"
+        tools:layout_editor_absoluteY="463dp"
+        tools:layout_editor_absoluteX="155dp" />
+
+    <TextView
+        android:id="@+id/textView_Main_Clicks"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/Button_Menu"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="114dp" />
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="@string/Text_View"
+        android:textColor="#FFFF00"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="338dp" />
+
+    <TextView
+        android:id="@+id/textView_Main_Clicks_Total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="@string/Text_View2"
+        android:textColor="#FFFF00"
+        tools:layout_editor_absoluteY="271dp"
+        tools:layout_editor_absoluteX="170dp" />
+
+    <TextView
+        android:id="@+id/textView_Main_Clicks_Sec"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_Main_Clicks_Total"
+        android:layout_below="@+id/textView_Main_Clicks_Total"
+        android:text="@string/Text_View1"
+        android:textColor="#FFFF00"
+        tools:layout_editor_absoluteY="245dp"
+        tools:layout_editor_absoluteX="170dp" />
 
 </android.support.constraint.ConstraintLayout>

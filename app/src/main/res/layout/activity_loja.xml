@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ruan.keydclicker.LojaActivity">
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_imgclick"
+        android:clickable="true"
+        android:onClick="Keyd_Upgrades"
+        android:src="@drawable/ic_upgrades"
+        android:visibility="visible"
+        tools:layout_editor_absoluteY="484dp"
+        tools:layout_editor_absoluteX="155dp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/botao"
+        android:gravity="center"
+        android:shrinkColumns="*"
+        android:stretchColumns="*"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="16dp">
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_weight="1"
+                android:background="@drawable/ic_streamer"
+                android:gravity="center"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/TextView_Loja_Streamer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Preco"
+                android:textColor="#FFFF00" />
+
+            <TextView
+                android:id="@+id/Text_Qt_Streamer"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/Text_Qtde"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/button_Loja_Streamer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botao"
+                android:clickable="true"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:text="@string/Button_Loja_Streamer"
+                android:textColor="#FFFF00"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_weight="1"
+                android:background="@drawable/ic_topo"
+                android:gravity="center"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/TextView_Loja_Topo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Preco"
+                android:textColor="#FFFF00" />
+
+            <TextView
+                android:id="@+id/Text_Qt_Topo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/Text_Qtde"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/button_Loja_Topo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botao"
+                android:clickable="true"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:text="@string/Button_Loja_Topo"
+                android:textColor="#FFFF00"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView013"
+                android:layout_weight="1"
+                android:background="@drawable/ic_selva"
+                android:gravity="center"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/TextView_Loja_Selva"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Preco"
+                android:textColor="#FFFF00" />
+
+            <TextView
+                android:id="@+id/Text_Qt_Selva"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/Text_Qtde"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/button_Loja_Selva"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botao"
+                android:clickable="true"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:text="@string/Button_Loja_Selva"
+                android:textColor="#FFFF00"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView017"
+                android:layout_weight="1"
+                android:background="@drawable/ic_mid"
+                android:gravity="center"
+                android:padding="15dp"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/TextView_Loja_Mid"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Preco"
+                android:textColor="#FFFF00" />
+
+            <TextView
+                android:id="@+id/Text_Qt_Mid"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/Text_Qtde"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/button_Loja_Mid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botao"
+                android:clickable="true"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:text="@string/Button_Loja_Mid"
+                android:textColor="#FFFF00"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView021"
+                android:layout_weight="1"
+                android:background="@drawable/ic_adc"
+                android:gravity="center"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/TextView_Loja_Adc"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Preco"
+                android:textColor="#FFFF00" />
+
+            <TextView
+                android:id="@+id/Text_Qt_Adc"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/Text_Qtde"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/button_Loja_Adc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botao"
+                android:clickable="true"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:text="@string/Button_Loja_Adc"
+                android:textColor="#FFFF00"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TextView025"
+                android:layout_weight="1"
+                android:background="@drawable/ic_suporte"
+                android:gravity="center"
+                android:padding="15dp" />
+
+            <TextView
+                android:id="@+id/TextView_Loja_Suporte"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="Preco"
+                android:textColor="#FFFF00" />
+
+            <TextView
+                android:id="@+id/Text_Qt_Suporte"
+                android:layout_weight="1"
+                android:background="#000000"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/Text_Qtde"
+                android:textColor="#FFFF00" />
+
+            <Button
+                android:id="@+id/button_Loja_Suporte"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/botao"
+                android:clickable="true"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:text="@string/Button_Loja_Suporte"
+                android:textColor="#FFFF00"
+                android:visibility="visible" />
+        </TableRow>
+    </TableLayout>
+
+</android.support.constraint.ConstraintLayout>
