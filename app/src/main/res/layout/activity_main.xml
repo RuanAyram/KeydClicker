@@ -14,9 +14,13 @@
         android:layout_centerHorizontal="true"
         android:clickable="true"
         android:onClick="processAll"
+        android:background="@drawable/botao"
         android:src="@drawable/ic_imgclick"
         tools:layout_editor_absoluteY="77dp"
-        tools:layout_editor_absoluteX="117dp" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <ImageButton
         android:id="@+id/imageButton1"
@@ -28,7 +32,7 @@
         android:clickable="true"
         android:onClick="Keyd_Loja"
         android:src="@drawable/ic_loja"
-        tools:layout_editor_absoluteY="463dp"
+        tools:layout_editor_absoluteY="495dp"
         tools:layout_editor_absoluteX="295dp" />
 
     <ImageButton
@@ -41,8 +45,8 @@
         android:clickable="true"
         android:onClick="Keyd_Upgrades"
         android:src="@drawable/ic_upgrades"
-        tools:layout_editor_absoluteY="463dp"
-        tools:layout_editor_absoluteX="25dp" />
+        tools:layout_editor_absoluteY="495dp"
+        tools:layout_editor_absoluteX="26dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -54,7 +58,7 @@
         android:clickable="true"
         android:onClick="Keyd_Menu"
         android:src="@drawable/ic_menu"
-        tools:layout_editor_absoluteY="463dp"
+        tools:layout_editor_absoluteY="495dp"
         tools:layout_editor_absoluteX="155dp" />
 
     <TextView
@@ -65,7 +69,7 @@
         android:text="@string/Text_View"
         android:textColor="#FFFF00"
         tools:layout_editor_absoluteY="16dp"
-        tools:layout_editor_absoluteX="338dp" />
+        tools:layout_editor_absoluteX="336dp" />
 
     <TextView
         android:id="@+id/textView_Main_Clicks_Total"
@@ -75,8 +79,13 @@
         android:layout_centerHorizontal="true"
         android:text="@string/Text_View2"
         android:textColor="#FFFF00"
-        tools:layout_editor_absoluteY="271dp"
-        tools:layout_editor_absoluteX="170dp" />
+        android:background="@drawable/botao"
+        tools:layout_editor_absoluteY="287dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.498" />
 
     <TextView
         android:id="@+id/textView_Main_Clicks_Sec"
@@ -85,8 +94,12 @@
         android:layout_alignLeft="@+id/textView_Main_Clicks_Total"
         android:layout_below="@+id/textView_Main_Clicks_Total"
         android:text="@string/Text_View1"
+        android:background="@drawable/botao"
         android:textColor="#FFFF00"
         tools:layout_editor_absoluteY="245dp"
-        tools:layout_editor_absoluteX="170dp" />
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

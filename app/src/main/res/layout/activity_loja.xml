@@ -55,7 +55,7 @@
                 android:background="#000000"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Preco"
+                android:text="@string/Text_Preco"
                 android:textColor="#FFFF00" />
 
             <TextView
@@ -100,7 +100,7 @@
                 android:background="#000000"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Preco"
+                android:text="@string/Text_Preco"
                 android:textColor="#FFFF00" />
 
             <TextView
@@ -145,7 +145,7 @@
                 android:background="#000000"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Preco"
+                android:text="@string/Text_Preco"
                 android:textColor="#FFFF00" />
 
             <TextView
@@ -189,7 +189,7 @@
                 android:background="#000000"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Preco"
+                android:text="@string/Text_Preco"
                 android:textColor="#FFFF00" />
 
             <TextView
@@ -232,7 +232,7 @@
                 android:background="#000000"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Preco"
+                android:text="@string/Text_Preco"
                 android:textColor="#FFFF00" />
 
             <TextView
@@ -275,7 +275,7 @@
                 android:background="#000000"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="Preco"
+                android:text="@string/Text_Preco"
                 android:textColor="#FFFF00" />
 
             <TextView

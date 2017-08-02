@@ -17,6 +17,7 @@
 
     <!-- Loja -->
     <string name="Text_Qtde">0</string>
+    <string name="Text_Preco">Preço</string>
     <string name="Text_Preco_Streamer">K$ 0</string>
     <string name="Text_Preco_Topo">K$ 0</string>
     <string name="Text_Preco_Selva">K$ 0</string>
