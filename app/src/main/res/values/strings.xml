@@ -25,6 +25,11 @@
     <string name="Text_Preco_Adc">K$ 0</string>
     <string name="Text_Preco_Supote">K$ 0</string>
 
+    <!-- Upgrades -->
+    <string name="Text_KillSpree">Killing Spree</string>
+    <string name="Text_Preco_UP">K$ 0</string>
+    <string name="Text_Comprar">Comprar</string>
+
     <!-- Nome dos botoes -->
     <string name="Button1">Loja</string>
     <string name="Button2">Upgrades</string>

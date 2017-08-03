@@ -20,19 +20,21 @@
         android:stretchColumns="1,2,3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="0dp">
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints,RtlHardcoded">
 
         <TableRow
             android:id="@+id/tableRow1"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            tools:ignore="UselessParent">
 
             <TextView
                 android:id="@+id/textView2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                android:text="Killing Spree"
+                android:text="@string/Text_KillSpree"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#FFFF00" />
 
@@ -41,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="15dp"
-                android:text="Preco"
+                android:text="@string/Text_Preco_UP"
                 android:textAlignment="center"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textColor="#FFFF00" />
@@ -52,7 +54,7 @@
                 android:layout_height="wrap_content"
                 android:background="@drawable/botao"
                 android:padding="15dp"
-                android:text="Comprar"
+                android:text="@string/Text_Comprar"
                 android:textColor="#FFFF00" />
 
         </TableRow>
