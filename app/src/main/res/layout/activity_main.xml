@@ -16,11 +16,13 @@
         android:onClick="processAll"
         android:background="@drawable/botao"
         android:src="@drawable/ic_imgclick"
+        android:contentDescription="@string/app_name"
         tools:layout_editor_absoluteY="77dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton1"
@@ -32,8 +34,10 @@
         android:clickable="true"
         android:onClick="Keyd_Loja"
         android:src="@drawable/ic_loja"
+        android:contentDescription="@string/app_name"
         tools:layout_editor_absoluteY="495dp"
-        tools:layout_editor_absoluteX="295dp" />
+        tools:layout_editor_absoluteX="295dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageButton
         android:id="@+id/imageButton3"
@@ -45,8 +49,10 @@
         android:clickable="true"
         android:onClick="Keyd_Upgrades"
         android:src="@drawable/ic_upgrades"
+        android:contentDescription="@string/app_name"
         tools:layout_editor_absoluteY="495dp"
-        tools:layout_editor_absoluteX="26dp" />
+        tools:layout_editor_absoluteX="26dp"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -58,8 +64,10 @@
         android:clickable="true"
         android:onClick="Keyd_Menu"
         android:src="@drawable/ic_menu"
+        android:contentDescription="@string/app_name"
         tools:layout_editor_absoluteY="495dp"
-        tools:layout_editor_absoluteX="155dp" />
+        tools:layout_editor_absoluteX="155dp"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView_Main_Clicks"
@@ -69,7 +77,8 @@
         android:text="@string/Text_View"
         android:textColor="#FFFF00"
         tools:layout_editor_absoluteY="16dp"
-        tools:layout_editor_absoluteX="336dp" />
+        tools:layout_editor_absoluteX="336dp"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView_Main_Clicks_Total"
@@ -85,7 +94,8 @@
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.498" />
+        app:layout_constraintHorizontal_bias="0.498"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView_Main_Clicks_Sec"
@@ -100,6 +110,7 @@
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
 </android.support.constraint.ConstraintLayout>

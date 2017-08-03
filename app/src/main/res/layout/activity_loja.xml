@@ -16,13 +16,15 @@
         android:clickable="true"
         android:onClick="Keyd_Upgrades"
         android:src="@drawable/ic_upgrades"
+        android:contentDescription="@string/title_activity_keyd_upgrades"
         android:visibility="visible"
         tools:layout_editor_absoluteY="484dp"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.494" />
+        app:layout_constraintHorizontal_bias="0.494"
+        tools:ignore="MissingConstraints,RtlHardcoded" />
 
     <TableLayout
         android:layout_width="wrap_content"
@@ -33,7 +35,8 @@
         android:shrinkColumns="*"
         android:stretchColumns="*"
         tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="16dp">
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints,RtlHardcoded">
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -77,7 +80,8 @@
                 android:paddingLeft="20dp"
                 android:text="@string/Button_Loja_Streamer"
                 android:textColor="#FFFF00"
-                android:visibility="visible" />
+                android:visibility="visible"
+                tools:ignore="RtlSymmetry" />
         </TableRow>
 
         <TableRow
@@ -124,7 +128,8 @@
                 android:paddingLeft="20dp"
                 android:text="@string/Button_Loja_Topo"
                 android:textColor="#FFFF00"
-                android:visibility="visible" />
+                android:visibility="visible"
+                tools:ignore="RtlHardcoded,RtlSymmetry" />
         </TableRow>
 
         <TableRow
@@ -167,7 +172,8 @@
                 android:paddingLeft="20dp"
                 android:text="@string/Button_Loja_Selva"
                 android:textColor="#FFFF00"
-                android:visibility="visible" />
+                android:visibility="visible"
+                tools:ignore="RtlSymmetry" />
         </TableRow>
 
         <TableRow
@@ -211,7 +217,8 @@
                 android:paddingLeft="20dp"
                 android:text="@string/Button_Loja_Mid"
                 android:textColor="#FFFF00"
-                android:visibility="visible" />
+                android:visibility="visible"
+                tools:ignore="RtlSymmetry" />
         </TableRow>
 
         <TableRow
@@ -254,7 +261,8 @@
                 android:paddingLeft="20dp"
                 android:text="@string/Button_Loja_Adc"
                 android:textColor="#FFFF00"
-                android:visibility="visible" />
+                android:visibility="visible"
+                tools:ignore="RtlSymmetry" />
         </TableRow>
 
         <TableRow
@@ -297,7 +305,8 @@
                 android:paddingLeft="20dp"
                 android:text="@string/Button_Loja_Suporte"
                 android:textColor="#FFFF00"
-                android:visibility="visible" />
+                android:visibility="visible"
+                tools:ignore="RtlSymmetry" />
         </TableRow>
     </TableLayout>
 

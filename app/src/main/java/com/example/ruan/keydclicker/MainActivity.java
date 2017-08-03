@@ -69,7 +69,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Acao dos botoes
-    /*public void Keyd_Upgrades(View v) {
-        startActivity(new Intent(this, UpgradesActivity.class));
-    }*/
+    public void Keyd_Upgrades(View v) { startActivity(new Intent(this, UpgradesActivity.class)); }
 }
